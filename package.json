@@ -1,0 +1,25 @@
+{
+  "name": "w-joy5015.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "start-dev": "NODE_ENV='development' & NODE_ENV='development' npm run start-server",
+    "start-server": "nodemon server -e html,js,scss --ignore public --ignore client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-joy5015/w-joy5015.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w-joy5015/w-joy5015.github.io/issues"
+  },
+  "homepage": "https://github.com/w-joy5015/w-joy5015.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
