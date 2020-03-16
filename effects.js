@@ -1,5 +1,5 @@
+//carousel for project screenshots
 var slideIndex = [1,1];
-/* Class the members of each slideshow group with different CSS classes */
 var slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
 showSlides(1, 1);
@@ -17,4 +17,15 @@ function showSlides(n, no) {
     x[i].style.display = "none";
   }
   x[slideIndex[no]-1].style.display = "block";
+}
+
+//navbar appears on scroll
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
 }
