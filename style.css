@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #ffffff;
-  color: #254E70;
+  color: #1d3557;
   font-family: 'Baloo 2', sans-serif;
   margin: 0;
 }
@@ -12,7 +12,7 @@ body {
 a {
   list-style: none;
   text-decoration: none;
-  color: #254E70;
+  color: #1d3557;
 }
 
 li {
@@ -43,7 +43,7 @@ a:visited {
 
 .section-title {
   text-align: center;
-  color: #37718E;
+  color: #1d3557;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 40px;
@@ -61,8 +61,8 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  background-color: #8DB0C1;
-  color: #254E70;
+  background-color: #f0fff6;
+  color: #1d3557;
   z-index: 100;
   text-transform: uppercase;
   letter-spacing: 0.025em;
@@ -85,7 +85,7 @@ a:visited {
 
 .nav-container .nav-controls a:hover {
   cursor: pointer;
-  color: #51E5FF;
+  color: #457b9d;
   transform: scale(1.1);
 }
 
@@ -102,7 +102,7 @@ a:visited {
   /* margin: 175px 80px 0 80px; */
   align-items: center;
   text-align: center;
-  background-image: url("stack-logos/digital-code-banner.jpg");
+  background-image: url(assets/Cat_at_computer.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,7 +125,7 @@ a:visited {
 
 .fade-in a:hover {
   cursor: pointer;
-  color: #51E5FF;
+  color: #457b9d;
   transform: scale(1.1);
 }
 
@@ -188,9 +188,9 @@ a:visited {
   flex: 1;
   line-height: 1.5;
   font-size: 20px;
-  background-color: #8DB0C1;
+  background-color: #f0fff6;
   width: 97%;
-  color: #254E70;
+  color: #1d3557;
   margin: 10px;
   padding: 30px;
   text-align: center;
@@ -208,7 +208,7 @@ a:visited {
 .about-section a:hover{
   cursor: pointer;
   transform: scale(1.1);
-  color: #51E5FF;
+  color: #457b9d;
 }
 
 .about-section img {
@@ -238,9 +238,10 @@ a:visited {
   flex-direction: row;
   line-height: 1.5;
   font-size: 20px;
-  background-color: #8DB0C1;
+  background-color: #f0fff6;
+  justify-content: space-around;
   width: 93%;
-  color: #254E70;
+  color: #1d3557;
   margin: 10px;
   padding: 30px;
   border-radius: 2px;
@@ -270,7 +271,7 @@ a:visited {
 .content-left a:hover{
   cursor: pointer;
   transform: scale(1.1);
-  color: #51E5FF;
+  color: #457b9d;
 }
 
 .content-right{
@@ -350,31 +351,39 @@ a:visited {
   padding-top: 10px;
 }
 
-.tech-logos {
+.skills-container {
+  flex: 1;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.tech-logos .item {
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 20px;
+  background-color: #f0fff6;
+  width: 97%;
+  color: #1d3557;
+  margin: 10px;
   padding: 30px;
+  border-radius: 2px;
+  font-family: 'Baloo 2', sans-serif;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.tech-logos .item img {
-  width: 120px;
+.individual-skill{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
 }
 
-#technologies .tech-logos > div:nth-child(1) img {
-  width: 230px;
+.left {
+  width: 30%;
+  font-size: 22px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-#technologies .tech-logos > div:nth-child(5) img {
-  width: 120px;
-}
-
-#technologies .tech-logos > div:nth-child(6) > img {
-  width: 100px;
+.right{
+  font-size: 22px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 /* DEVELOPER SECTION */
@@ -387,9 +396,9 @@ a:visited {
 }
 
 .developer-card {
-  background-color: #8DB0C1;
+  background-color: #f0fff6;
   width: 425px;
-  color: #254E70;
+  color: #1d3557;
   margin: 10px;
   padding: 30px;
   text-align: center;
@@ -410,7 +419,7 @@ a:visited {
 
 .developer-card .contact-icons i:hover {
   transform: scale(1.25);
-  color: #51E5FF;
+  color: #457b9d;
 }
 
 @media only screen and (max-width: 1024px) {
