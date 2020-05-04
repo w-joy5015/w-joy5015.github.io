@@ -96,22 +96,20 @@ a:visited {
 
 /* OPENING SECTION */
 #hero-container {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
+  /* Sizing */
+  width: 100vw;
+  height: 95vh;
 
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    /* Text styles */
+  /* Text styles */
   text-align: center;
+
+  /* Background image format */
   background-image: url(assets/Cat_at_computer.jpeg);
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
